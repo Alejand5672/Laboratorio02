@@ -1,0 +1,12 @@
+/* css/design-system.css */
+
+:root {
+  --color-primary: #007BFF; /* Azul para aventura */
+  --color-secondary: #FF6347; /* Rojo para romance */
+  --color-accent: #FFD700; /* Dorado para tesoro */
+  --color-text: #333333; /* Texto principal */
+  --color-text-dim: #666666; /* Texto secundario */
+  --color-bg-light: #F0F8FF; /* Fondo claro */
+  --color-bg-dark: #2F2F2F; /* Fondo oscuro para bodega */
+  --color-bg-romance: #FFB6C1; /* Fondo romántico */
+}
