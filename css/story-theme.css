@@ -1,0 +1,54 @@
+/* 
+   STORY THEME - DESIGN SYSTEM
+ */
+
+:root {
+
+  /* 
+     TYPOGRAPHY
+   */
+  --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-monospace: 'Courier New', monospace;
+
+  /* 
+     CORE COLORS
+   */
+  --color-primary: #007BFF;      /* Aventura */
+  --color-secondary: #FF6347;    /* Romance */
+  --color-accent: #FFD700;       /* Tesoro */
+  --color-text: #333333;
+  --color-text-dim: #666666;
+
+  /* 
+     BACKGROUND STATES
+  */
+  --state-start-background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e8ba3 100%);
+  --state-decision-background: #FFB6C1;
+  --state-ending-background: #2F2F2F;
+
+  /* =
+     SURFACE COLORS
+   */
+  --color-surface: #ffffff;
+  --color-surface-muted: #f8f9fa;
+
+  /* 
+     SPACING
+   */
+  --space-sm: 10px;
+  --space-md: 20px;
+  --space-lg: 40px;
+
+  /* 
+     BORDER RADIUS
+   */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  /* 
+     TRANSITIONS
+   */
+  --transition-fast: 0.3s ease;
+  --transition-smooth: 0.4s ease;
+}

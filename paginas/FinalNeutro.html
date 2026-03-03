@@ -1,35 +1,42 @@
-<html>
+<html lang="es">
 <head>
-    <title>El amor perdido</title>
-    <meta charset = "UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Amor Perdido — Paco y el Corazón Dorado</title>
+    <link rel="stylesheet" href="../css/story-theme.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layouts.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animation.css">
 </head>
+<body class="state-ending">
+    <main class="container fade-in">
+        <header class="header" style="position: relative; background: linear-gradient(135deg, #696969 0%, #505050 100%);">
+            <h1><strong>Se perdió un Romance</strong></h1>
+            <p class="subtitle">El Amor Perdido</p>
+        </header>
 
-<body>
-        <section>
-            <center> 
-                <h1><strong>Se perdio un Romance</strong></h1>
-            </center>
-            <p1>Paco decidió proteger la gema, pero permitió que Valeria escapara.</p1>
+        <section class="content card slide-up">
+            <p>Paco decidió proteger la gema, pero permitió que Valeria escapara.</p>
+            
+            <div style="text-align:center; margin: 25px 0;">
+                <img src="../assets/images/FinalNeutro.jpg" alt="Final neutral" width="300" height="300" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+            </div>
+
+            <p>El tesoro estaba a salvo, pero su corazón no.</p>
+            <p>Nunca supo si ella lo amó de verdad o si todo fue parte de un plan fallido.</p>
+            <p><small>Algunas historias no tienen un cierre perfecto.</small></p>
+            
+            <h2 style="color: #696969; margin-top: 30px; margin-bottom: 20px;">¿A qué página quieres volver?</h2>
+            <form onsubmit="event.preventDefault();var p=this.page.value.trim();if(p){window.location.href=p+'.html';}" style="text-align:center;">
+                <input type="text" name="page" placeholder="nombre de la página" autofocus style="padding:8px; width:200px;">
+                <button type="submit" class="button-choice" style="display:inline-block; margin-left:8px;">Ir</button>
+            </form>
         </section>
-        <center>
-            <img src="../assets/images/FinalNeutro.jpg" width="300" height="300">
-        </center>
-        <section>
-            <p2>
-                El tesoro estaba a salvo, pero su corazón no.
+    </main>
 
-                <br>Nunca supo si ella lo amó de verdad o si todo fue parte de un plan fallido.
-
-                <br><small>Algunas historias no tienen un cierre perfecto.</small>
-            </p2>
-        </section>
-        <ul>
-                <li>
-                    <a href="inicio.html"> <em>Volver al inicio</em>.</a>
-                </li>
-        </ul>
+    <footer class="footer">
+        <small>No todas las decisiones traen felicidad… pero dejan lecciones.</small>
+    </footer>
 </body>
-<footer>
-    <small>No todas las decisiones traen felicidad… pero dejan lecciones.</small>
-</footer>
 </html>

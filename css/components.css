@@ -1,0 +1,85 @@
+/* 
+   COMPONENTS
+ */
+
+.header {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  color: white;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  opacity: 0.95;
+}
+
+.card {
+  background-color: var(--color-surface-muted);
+  border-radius: var(--radius-md);
+  padding: 30px;
+  margin-bottom: 30px;
+  transition: transform var(--transition-fast),
+              box-shadow var(--transition-fast);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  color: #1e3c72;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #2a5298;
+  padding-bottom: 10px;
+}
+
+.advantage-item {
+  background-color: white;
+  padding: 25px;
+  border-radius: var(--radius-sm);
+  text-align: center;
+  border: 2px solid #e9ecef;
+  transition: transform var(--transition-fast),
+              box-shadow var(--transition-fast);
+}
+
+.advantage-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.button-choice {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: var(--radius-md);
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform var(--transition-fast),
+              background-color var(--transition-fast),
+              box-shadow var(--transition-fast);
+}
+
+.button-choice:hover {
+  background-color: var(--color-secondary);
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.button-choice:active {
+  transform: scale(0.95);
+}
+
+.button-choice:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 4px;
+}
